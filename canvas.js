@@ -12,7 +12,7 @@ function setup(){
   height = $(window).height();
   target = "Type your word to evolve here.";
   mutationRate =  1 / target.length;
-  popSize = 20;
+  popSize = 200;
   popul = new Population(target, mutationRate, popSize);
   // createCanvas(width, height);
 
