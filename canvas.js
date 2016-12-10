@@ -10,7 +10,7 @@ var fpsLERP = 0;
 function setup(){
   width = $(window).width();
   height = $(window).height();
-  target = "Type your word to evolve here.";
+  target = "Type your phrase to evolve here.";
   mutationRate =  1 / target.length;
   popSize = 200;
   popul = new Population(target, mutationRate, popSize);
@@ -29,7 +29,7 @@ function setup(){
   progressBar.style('background-color', 'rgba(50,150,50,.5)');
   // progressBar.style('display','block');
   progressBar.parent('stats');
-  wordInput = createInput('Type your word to evolve here.');
+  wordInput = createInput(target);
   wordInput.style('font-size', '14pt');
   wordInput.style('height','64px');
   wordInput.attribute('id','inputWindow');
