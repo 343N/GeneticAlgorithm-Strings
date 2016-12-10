@@ -218,7 +218,7 @@ function draw(){
 
   if (popul.finished) {
     bestMatchText.style('color','rgba(150,255,150,255)');
-    progressBar.style('background-color', 'rgba(50,150,50,.7)');
+    progressBar.style('background-color', 'rgba(50,150,50,.8)');
     // mutationCount.style('color','rgba(150,255,150,255)');
     // generationCount.style('color','rgba(150,255,150,255)');
     percentCount.style('color','rgba(150,255,150,255)');
