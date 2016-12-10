@@ -247,6 +247,7 @@ function newEvolve() {
   target = this.value();
   if (target.length > 0) {
     progressBarActualWidth = 0;
+    progressBarWidth = 0;
     popul = new Population(target, mutationRate, popSize);
     bestMatchText.style('color','rgba(255,255,255,255)');
     progressBar.style('background-color', 'rgba(50,150,50,.5)');
